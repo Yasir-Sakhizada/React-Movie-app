@@ -4,7 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./index.css";
 import TrailerPage from "./components/TrailerPage.jsx";
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <BrowserRouter>
+  <BrowserRouter basename="/React-Movie-app">
     <Routes>
       <Route path="/" element={<App />} />
       <Route path="/trailer/:id" element={<TrailerPage />} />
