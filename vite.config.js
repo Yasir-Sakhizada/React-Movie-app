@@ -4,6 +4,6 @@ import eslint from "vite-plugin-eslint";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base:"/React-Movie-app/",
+  base:"/React-Movie-app",
   plugins: [react(), eslint()],
 });
